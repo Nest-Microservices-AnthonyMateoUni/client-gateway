@@ -22,6 +22,9 @@ async function bootstrap() {
 
   await app.listen(envs.port);
 
+  console.log(`Hola Mundo`);
+
+
   logger.log(`Orders Microservice running on port ${envs.port}`);
 }
 bootstrap();
